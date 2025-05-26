@@ -1,5 +1,5 @@
 <?php
-$apiKey = ""
+$apiKey = "570d803043d71414b7d23113d492c04b"
 $city = "Istanbul";
 
 $url = "https://api.openweathermap.org/data/2.5/weather?q={$city}&appid={$apiKey}&units=metric&lang=tr";
