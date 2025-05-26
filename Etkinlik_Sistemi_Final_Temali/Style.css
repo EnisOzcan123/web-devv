@@ -1,0 +1,58 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #f2f2f2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.container {
+  background: white;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px rgba(0,0,0,0.1);
+  width: 300px;
+}
+
+h2 {
+  text-align: center;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+input, button {
+  margin-top: 10px;
+  padding: 10px;
+  font-size: 16px;
+}
+
+button {
+  background: #362a9d;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #21867a;
+}
+
+a {
+  color: #2a9d8f;
+}
+
+
+.etkinlik {
+  border: 1px solid #ccc;
+  padding: 15px;
+  margin-bottom: 20px;
+  border-radius: 8px;
+  background-color: #fdfdfd;
+}
+.etkinlik h3 {
+  margin-top: 0;
+}
