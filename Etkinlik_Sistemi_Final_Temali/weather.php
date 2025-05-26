@@ -1,5 +1,5 @@
 <?php
-$apiKey = "SENIN_API_KEYIN";  // Buraya kendi OpenWeatherMap API anahtarını yaz
+$apiKey = ""
 $city = "Istanbul";
 
 $url = "https://api.openweathermap.org/data/2.5/weather?q={$city}&appid={$apiKey}&units=metric&lang=tr";
